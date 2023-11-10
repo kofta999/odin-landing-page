@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.hero,
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.hero {
+  padding: 20px 200px 100px 200px;
+}
+
+.hero header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.hero .logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hero .links {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+}
+
+.hero a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.hero p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero button {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 6px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.hero img {
+  border-radius: 4px;
+  max-height: 300px;
+  /* max-width: 1400px; */
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.hero .hero-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+main .cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+main .cards .card {
+  color: #1f2937;
+  font-size: 18px;
+  flex-basis: 160px;
+  text-align: center;
+}
+
+main .cards .card img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  padding: 80px 150px;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 36px;
+  width: 850px;
+}
+
+.quote-author {
+  text-align: end;
+  font-size: 24px;
+  width: 850px;
+}
+
+.signup-container {
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup,
+.signup button {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  border-radius: 10px;
+  width: 700px;
+}
+
+.signup h3,
+.signup p {
+  margin: 0;
+}
+
+.signup button {
+  border: 1px solid #f9faf8;
+  padding: 6px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+}
